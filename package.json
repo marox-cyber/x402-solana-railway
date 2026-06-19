@@ -1,0 +1,23 @@
+{
+  "name": "x402-solana-railway",
+  "version": "1.0.0",
+  "description": "Minimal x402 Solana USDC merchant endpoint for Railway using PayAI facilitator and Hono.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "latest",
+    "@payai/facilitator": "latest",
+    "@x402/core": "latest",
+    "@x402/hono": "latest",
+    "@x402/svm": "latest",
+    "dotenv": "latest",
+    "hono": "latest",
+    "tsx": "latest"
+  }
+}
